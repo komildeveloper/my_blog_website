@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #333;
+}
+
+.bg {
+  background: url('/img/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg .navbar {
+  background: #fff;
+  border-bottom: 1px solid #333;
+  padding: 5px;
+}
+
+.navbar .navbar-brand {
+  font: 500 24px 'Montserrat', sans-serif;
+  color: #cc0a0a!important;
+}
+
+.navbar .navbar-toggler {
+  outline: none;
+}
+
+.navbar ul li a {
+  color: #333!important;
+}
+
+.navbar .fa-phone-alt {
+  margin-top: 12px;
+  color: #333;
+}
+
+.article {
+  margin-top: 50px;
+  color: #333;
+}
+
+.left-side button {
+  border: 1px solid #333;
+  background: transparent;
+  padding: 4px 14px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.article .right-side img {
+  width: 100%;
+}
+
+.bottom-side .one {
+  border: 1px solid #333;
+  padding: 10px 16px;
+}
+
+/* Products */
+.products {
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.products img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.products a {
+  text-decoration: none;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+}
+
+/* News */
+.news p {
+  font-size: 14px;
+}
+
+/* Contact */
+.bg-darken {
+  background: #333;
+  color: #fff;
+}
+
+.bg-darken .item-one {
+  border-right: 1px solid #fff;
+  padding-right: 20px;
+}
+
+.bg-darken .item-two {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.bg-darken h5 {
+  margin-bottom: 20px;
+}
+
+.bg-darken a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bg-darken .contact a {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.bg-darken form input[type="email"] {
+  outline: none;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.bg-darken form input[type="submit"] {
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  padding: 6px 10px;
+}
